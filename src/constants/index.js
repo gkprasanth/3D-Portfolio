@@ -22,7 +22,11 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  sketch,
+  yt,
+  orientation,
+  ew,
+  tl
 } from "../assets";
 
 export const navLinks = [
@@ -31,7 +35,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "myworks",
     title: "Work",
   },
   {
@@ -42,21 +46,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Fullstack Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  
 ];
 
 const technologies = [
@@ -71,10 +72,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -97,20 +94,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,30 +187,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SketchBoard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based multi-user drawing board which allows multiples users to collabrate at same time",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "web sockets",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sketch,
+    source_code_link: "https://github.com/gkprasanth/SketchBoard",
   },
   {
-    name: "Job IT",
+    name: "Kp Media",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A videp streaming web application that is similar to youtube.",
     tags: [
       {
         name: "react",
@@ -232,33 +225,69 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "material ui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: yt,
+    source_code_link: "https://github.com/gkprasanth/Youtube-clone",
   },
   {
-    name: "Trip Guide",
+    name: "Orientation Day",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application made for college's orientation day where all attendees can register themselves to attend the event.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "material ui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: orientation,
+    source_code_link: "https://github.com/gkprasanth/orientation-day",
+  },
+
+  {
+    name: "Elitewing Consulting",
+    description:
+      "A website that I made for a US based consulting company called Eliteiwng consulting which provides various IT related services to their clients",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      
+      {
+        name: "chakra ui",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ew,
+    source_code_link: "https://elitewingconsulting.com",
+  },
+  {
+    name: "Talentlinks",
+    description:
+      "A website that I made for an agency called Talentlinks which provides Talent aquisition adn other form of recruitment services to their clients.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tl,
+    source_code_link: "https://elitewingconsulting.com",
   },
 ];
 

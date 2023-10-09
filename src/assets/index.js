@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.webp";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,7 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import sketch from "./sketch.png";
+import yt from "./yt.png"
+import orientation from "./orientation.png"
+import tl from "./tl.jpg"
+import ew from "./ew.png"
 export {
   logo,
   backend,
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  sketch,
+  yt,
+  orientation,
+  tl,
+  ew
 };
