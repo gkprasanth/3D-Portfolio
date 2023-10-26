@@ -192,7 +192,7 @@ const projects = [
       "Web-based multi-user drawing board which allows multiples users to collabrate at same time",
     tags: [
       {
-        name: "react",
+        name: "next js",
         color: "blue-text-gradient",
       },
       {
